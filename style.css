@@ -1,0 +1,84 @@
+
+body{ margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.chelsea-logo img{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.two{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+}
+.header{
+
+    padding: 20px 40px;
+
+   background-color:#1f2937;
+   height: 400px;
+   
+}
+button{
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: aqua;
+    margin-top: 10px;
+    width: 170px;
+    height: 40px;
+
+    
+}
+.logo{
+   display: flex;   
+   justify-content: space-between;
+   flex: 1;
+}
+.list-menu {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.referer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-word{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    margin-top: 30px;
+
+}
+.trainer {
+    display: flex;
+    justify-content: flex-end;
+}
+#drogba{
+    border-radius: 10px;
+    background: url(./images/drogba.jpg);
+    background-size: cover;
+    width: 550px;
+    height: 257px;
+   
+}
+
